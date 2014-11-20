@@ -4,8 +4,7 @@
 Overview
 --------
 
-This is a presentation I gave on a David Lewis paper for a metaphysics seminar
-at Rutgers University with Professor Barry Loewer in the Spring of 2014.
+This is a repo I use for assorted presentations.
 
 Quick Start
 -----------

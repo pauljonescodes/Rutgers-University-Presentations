@@ -1,0 +1,269 @@
+\documentclass[ignorenonframetext,,aspectratio=169,14pt]{beamer} 
+\usetheme{default}
+%\usecolortheme{dove}
+\definecolor{MyGray}{RGB}{240, 240, 240}
+\definecolor{MyBlack}{RGB}{25,25,25}
+\usecolortheme[RGB={25,25,25}]{structure} 
+\setbeamercolor{normal text}{bg=MyGray}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\usepackage{lmodern}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+    \newcommand{\euro}{€}
+  \else
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+      \fi
+\fi
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+\usepackage[labelformat=empty]{caption}
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage{graphicx}
+% Redefine \includegraphics so that, unless explicit options are
+% given, the image width will not exceed the width of the page.
+% Images get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\ScaleIfNeeded{%
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+{%
+ \catcode`\@=11\relax%
+ \gdef\includegraphics{\@ifnextchar[{\Oldincludegraphics}{\Oldincludegraphics[width=\ScaleIfNeeded]}}%
+}%
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{GitHub for Digital Professionals}
+
+\institute[]
+{
+  
+}
+
+\setsansfont{Museo Sans}
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true]
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[square]
+\setbeamerfont{institute}{size=\normalsize}
+\setbeamerfont{author}{size=\normalsize}
+\setbeamerfont{date}{size=\normalsize}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+\begin{frame}{Introduction}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{img/logos.png}
+\caption{la lune}
+\end{figure}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  In the past, Local Wisdom used a number of disparate services to
+  provide source control, issue tracking, and documentation for
+  deliverables.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Introduction}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{img/github.png}
+\caption{2}
+\end{figure}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Well no longer, now there is the One Ring to Rule Them All: GitHub.
+\item
+  Today, we're going to go over what this change means for everyone in
+  the company.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Introduction}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  To start off, we'll begin with what dev does on GitHub.
+\item
+  With that out of the way, we'll move on to what it means for project
+  managers and designers and architects and QA testers and \ldots{}
+  well, everyone.
+\end{itemize}
+
+\end{frame}
+
+\section{Source Control}\label{source-control}
+
+\begin{frame}{In the beginning \ldots{}}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  In the dark ages of development, if you wanted to archive a state of a
+  project, your options were fairly limited.
+\item
+  If you discovered an issue had been introduced to the system, the
+  process of discovering when was tedious.
+\item
+  This problem was even further compounded in multiple developer
+  projects!
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Let there be light}
+
+\end{frame}
+
+\begin{frame}{Slide Three}
+
+Ait aer gestamina inflata, corpora: tamen: edendi hos inceptaque verba.
+Equidem sociorum terreat, ait feram ferre e nondum clamor pulsarunt!
+
+Sola esse reddita, aris se unde. Bos iaces frustra. Meo seges
+\emph{perque gaudens Dianae} precor quicquid iuventus diversas vera,
+donaverit.
+
+\end{frame}
+
+\section{Issues}\label{issues}
+
+\begin{frame}{Slide One}
+
+Lorem markdownum utque sanguine blandisque et aede etiam veniebat
+posset! Comes geminas responde manus parte potest accipiter caedit
+quoque, arte quid indulgere is Mars perterrita abest sic
+\href{http://zeus.ugent.be/}{fisso}, dis. Vitae nec: equos ripa;
+facitote iussit, cum illo diro dicta est in amoris.
+
+\end{frame}
+
+\begin{frame}{Slide Two}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Ferrumque poenam et anhelo
+\item
+  Pius Aiax concita fecit salientis in sulphura
+\item
+  Corda aperto gemitus queat iustitia malorum durior
+\item
+  Nitidaque classem
+\item
+  Erat videt quarta
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Slide Three}
+
+Ait aer gestamina inflata, corpora: tamen: edendi hos inceptaque verba.
+Equidem sociorum terreat, ait feram ferre e nondum clamor pulsarunt!
+
+Sola esse reddita, aris se unde. Bos iaces frustra. Meo seges
+\emph{perque gaudens Dianae} precor quicquid iuventus diversas vera,
+donaverit.
+
+\end{frame}
+
+\section{Wikis}\label{wikis}
+
+\begin{frame}{Slide One}
+
+Lorem markdownum utque sanguine blandisque et aede etiam veniebat
+posset! Comes geminas responde manus parte potest accipiter caedit
+quoque, arte quid indulgere is Mars perterrita abest sic
+\href{http://zeus.ugent.be/}{fisso}, dis. Vitae nec: equos ripa;
+facitote iussit, cum illo diro dicta est in amoris.
+
+\end{frame}
+
+\begin{frame}{Slide Two}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Ferrumque poenam et anhelo
+\item
+  Pius Aiax concita fecit salientis in sulphura
+\item
+  Corda aperto gemitus queat iustitia malorum durior
+\item
+  Nitidaque classem
+\item
+  Erat videt quarta
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Slide Three}
+
+Ait aer gestamina inflata, corpora: tamen: edendi hos inceptaque verba.
+Equidem sociorum terreat, ait feram ferre e nondum clamor pulsarunt!
+
+Sola esse reddita, aris se unde. Bos iaces frustra. Meo seges
+\emph{perque gaudens Dianae} precor quicquid iuventus diversas vera,
+donaverit.
+
+\end{frame}
+
+\end{document}
