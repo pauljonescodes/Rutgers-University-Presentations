@@ -56,27 +56,21 @@ noun
 
 ### 
 
-![](img/codes.png)
-
-### 
-
 ![](img/push.png)
 
 ### 
 
 ![](img/pull.png)
 
-### Branches
+### 
 
-Create a branch to try out an idea, commit a few times, switch back to where you branched from, apply a patch, switch back to where you are experimenting, and merge it in.
+![](img/codes.png)
+
+### 
 
 ![](img/branches.png)
 
 ###
-
-\begin{center}
-But the command line is ... dated.
-\end{center}
 
 ![](img/gui.png)
 
@@ -103,6 +97,13 @@ a way to browse history.
 \begin{center}
 \huge Pause for demo.
 \end{center}
+
+### Overview
+
+-   Every commit to a PSD is a design change.
+-   Developers can quickly see what's new.
+-   Every commit describes progress.
+-   All viewable on Windows, Mac, and the Web.
 
 Issue Tracking
 ==============
@@ -192,8 +193,6 @@ together.
 
 -   GitHub lets you publish HTML straight to the web from any branch 
     named "`gh_pages`", making a public face for your project.
--   GitHub lets a collaborator create their own branch, change the assets
-    on their side, and submit it to you for review from the website.
 -   GitHub supports mentioning people with @, linking issues using #, 
     using emoji, and adding images, all with drag-and-drop and autocomplete.
 -   If you want to close issue #35, put closes #35 somewhere in your commit message. 
@@ -205,5 +204,11 @@ together.
 After this presentation, I'll send an internal all email with a link 
 where you can use your Local Wisdom email to create a GitHub profile
 to get you started.
+\end{center}
+
+### 
+
+\begin{center}
+\Huge Thank you!
 \end{center}
 
