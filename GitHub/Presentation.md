@@ -74,37 +74,6 @@ noun
 
 ![](img/gui.png)
 
-Version Control
-===============
-
-### 
-
-\begin{center}
-\huge GitHub gives you \\
-a way to browse history.
-\end{center}
-
-### 
-
-![](img/focus-history.png)
-
-### 
-
-![](img/history.png)
-
-### 
-
-\begin{center}
-\huge Pause for demo.
-\end{center}
-
-### Overview
-
--   Every commit to a PSD is a design change.
--   Developers can quickly see what's new.
--   Every commit describes progress.
--   All viewable on Windows, Mac, and the Web.
-
 Issue Tracking
 ==============
 
@@ -136,6 +105,37 @@ a way to communicate with dev.
 -   Milestones
 -   One assignee
 -   Comments
+
+Version Control
+===============
+
+### 
+
+\begin{center}
+\huge GitHub gives you \\
+a way to browse history.
+\end{center}
+
+### 
+
+![](img/focus-history.png)
+
+### 
+
+![](img/history.png)
+
+### 
+
+\begin{center}
+\huge Pause for demo.
+\end{center}
+
+### Overview
+
+-   Every commit to a PSD is a design change.
+-   Developers can quickly see what's new.
+-   Every commit describes progress.
+-   All viewable on Windows, Mac, and the Web.
 
 Documentation
 =============
