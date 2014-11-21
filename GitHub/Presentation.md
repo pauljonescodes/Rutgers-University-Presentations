@@ -42,7 +42,7 @@ GitHub lets us build better.
 
 noun
 
-**GitHub** is a code repository web-based hosting service, which offers all the features of `git` as well as adding its own features, such as: 
+**GitHub** is a code repository hosting service, which offers all the features of `git` as well as adding its own features, such as: 
 
 -   Issue-tracking
 -   Wikis
@@ -52,25 +52,25 @@ noun
 
 noun
 
-`git` is a distributed revision control and source code management system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.
+`git` is a source control system with support for distributed and non-linear workflows.
 
-### 
+### "Source Control"
 
 ![](img/push.png)
 
-### 
+### "Source Control"
 
 ![](img/pull.png)
 
-### 
+### "Distributed"
 
 ![](img/codes.png)
 
-### 
+### "Non-Linear"
 
 ![](img/branches.png)
 
-###
+### All Platforms
 
 ![](img/gui.png)
 
@@ -131,11 +131,11 @@ a way to communicate with dev.
 
 ### Overview
 
--   A title and description describe what the issue is all about.
--   Color-coded labels help you categorize and filter your issues.
--   A milestone acts like a container for issues.
--   One assignee is responsible for working on the issue at any given time.
--   Comments allow anyone with access to the repository to provide feedback.
+-   Title and description
+-   Color-coded labels
+-   Milestones
+-   One assignee
+-   Comments
 
 Documentation
 =============
@@ -167,7 +167,7 @@ a way to document knowledge.
     about our projects, such as: 
     -   how to use it, 
     -   how it's been designed, and
-    -   manifestos on its core principles.
+    -   planned features.
 
 -   Wikis can be edited directly on GitHub, or you can work with a text editor offline 
     and simply push your changes.
@@ -191,12 +191,10 @@ together.
 
 ### Advanced Topics
 
--   GitHub lets you publish HTML straight to the web from any branch 
-    named "`gh_pages`", making a public face for your project.
+-   GitHub lets you publish HTML straight to the web from any branch named "`gh_pages`".
 -   GitHub supports mentioning people with @, linking issues using #, 
-    using emoji, and adding images, all with drag-and-drop and autocomplete.
+    using emoji, and adding images.
 -   If you want to close issue #35, put closes #35 somewhere in your commit message. 
-    Once the commit is in your default branch (usually master), the issue will be closed.
 -   Markdown, the markup language used for GitHub documentation, is useful for much
     more than GitHub: this presentation was written in Markdown!
 
