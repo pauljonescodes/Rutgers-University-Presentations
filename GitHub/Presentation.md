@@ -197,6 +197,8 @@ together.
     using emoji, and adding images, all with drag-and-drop and autocomplete.
 -   If you want to close issue #35, put closes #35 somewhere in your commit message. 
     Once the commit is in your default branch (usually master), the issue will be closed.
+-   Markdown, the markup language used for GitHub documentation, is useful for much
+    more than GitHub: this presentation was written in Markdown!
 
 ###
 

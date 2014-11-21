@@ -1,5 +1,5 @@
-"Humean Supervenience Debugged" Presentation
-============================================
+Presentations
+=============
 
 Overview
 --------
