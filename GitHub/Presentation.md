@@ -7,6 +7,9 @@ institute:
   abbr: LW
 ---
 
+Introduction
+============
+
 ### 
 
 \begin{center}
@@ -63,6 +66,12 @@ noun
 
 ![](img/pull.png)
 
+### Branches
+
+Create a branch to try out an idea, commit a few times, switch back to where you branched from, apply a patch, switch back to where you are experimenting, and merge it in.
+
+![](img/branches.png)
+
 ###
 
 \begin{center}
@@ -70,6 +79,33 @@ But the command line is ... dated.
 \end{center}
 
 ![](img/gui.png)
+
+Version Control
+===============
+
+### 
+
+\begin{center}
+\huge GitHub gives you \\
+a way to browse history.
+\end{center}
+
+### 
+
+![](img/focus-history.png)
+
+### 
+
+![](img/history.png)
+
+### 
+
+\begin{center}
+\huge Pause for demo.
+\end{center}
+
+Issue Tracking
+==============
 
 ### 
 
@@ -92,27 +128,82 @@ a way to communicate with dev.
 \huge Pause for demo.
 \end{center}
 
+### Overview
+
+-   A title and description describe what the issue is all about.
+-   Color-coded labels help you categorize and filter your issues.
+-   A milestone acts like a container for issues.
+-   One assignee is responsible for working on the issue at any given time.
+-   Comments allow anyone with access to the repository to provide feedback.
+
+Documentation
+=============
+
 ### 
 
 \begin{center}
 \huge GitHub gives you \\
-a way to browse history.
+a way to document knowledge.
 \end{center}
 
 ### 
 
-![](img/focus-history.png)
+![](img/focus-wiki.png)
 
 ### 
 
-![](img/history.png)
-
-### 
-
-![](img/img-diff.png)
+![](img/wiki.png)
 
 ### 
 
 \begin{center}
 \huge Pause for demo.
 \end{center}
+
+### Overview
+
+-   GitHub Wikis are a place in your repository where we can share long-form content 
+    about our projects, such as: 
+    -   how to use it, 
+    -   how it's been designed, and
+    -   manifestos on its core principles.
+
+-   Wikis can be edited directly on GitHub, or you can work with a text editor offline 
+    and simply push your changes.
+-   You can:
+    -   Add images
+    -   Create sidebars
+    -   Create footgers
+    -   Edit locally
+    -   View history
+
+Conclusion
+==========
+
+### 
+
+\begin{center}
+\huge GitHub allows us to \\
+build better software, \\
+together.
+\end{center}
+
+### Advanced Topics
+
+-   GitHub lets you publish HTML straight to the web from any branch 
+    named "`gh_pages`", making a public face for your project.
+-   GitHub lets a collaborator create their own branch, change the assets
+    on their side, and submit it to you for review from the website.
+-   GitHub supports mentioning people with @, linking issues using #, 
+    using emoji, and adding images, all with drag-and-drop and autocomplete.
+-   If you want to close issue #35, put closes #35 somewhere in your commit message. 
+    Once the commit is in your default branch (usually master), the issue will be closed.
+
+###
+
+\begin{center}
+After this presentation, I'll send an internal all email with a link 
+where you can use your Local Wisdom email to create a GitHub profile
+to get you started.
+\end{center}
+
