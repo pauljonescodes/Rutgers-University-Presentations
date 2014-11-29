@@ -1,0 +1,3 @@
+#!/bin/sh 
+
+pandoc -t beamer -V theme:CambridgeUS Presentation.md -o Presentation-Full.pdf -s --slide-level=3 --template=beamer.tex --latex-engine=xelatex --toc --biblio biblio.bib -i && open -a Preview Presentation.pdf
